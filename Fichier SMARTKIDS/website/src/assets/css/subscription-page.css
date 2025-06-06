@@ -1,0 +1,43 @@
+.subscription-page {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .subscription-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .subscription-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .subscription-card.selected {
+    background-color: #f8f1e7;
+    border-color: #d1b386;
+  }
+  
+  .subscription-card .plan-description {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .price-details {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .payment-method-description {
+    color: #6c757d;
+    font-size: 0.9rem;
+  }
+  
+  .payment-method-card {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
