@@ -1,1 +1,0 @@
-export const ENTITY_NOT_FOUND = 'ENTITY_NOT_FOUND';
